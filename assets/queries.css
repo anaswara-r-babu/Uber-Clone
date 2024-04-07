@@ -1,0 +1,550 @@
+/* Big tab to 1200px*/
+@media only screen and (max-width:1200px){
+    .main-nav{
+        width: 100%;
+        padding: 0 2%;
+    }
+    .head-text-box{ margin-left: 2%;}
+    .col{
+        margin-left: -2%;
+    }
+    .row{ padding: 0 2%;}
+
+    .sub-nav{ padding-top: 0;}
+    .appstore{
+        position: relative;
+        margin-bottom: 8%;
+        width: 23%;
+        height: 100%;
+    }
+}
+
+/* Small tab to big tab*/
+@media only screen and (max-width:1023px){
+
+    html{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        font-size: 20px;
+    }
+
+    #l1,#l2,#l3,#l4,#l5,#l6,#l7{
+        visibility: hidden;
+    }
+
+    .sub-nav li,.main-nav li{
+        margin-right: 2px;
+    }
+    .btn-signup{
+        position: absolute;
+        left:87%;
+    }
+
+    .head-text-box{
+        font-size: 14px;
+        padding: 2%;
+        position: absolute;
+        top: 15%;
+        margin-left: 10%;
+        height: 18%;
+    }
+
+    .div-img{
+        position: absolute;
+        left: 6%;
+        top: 45%;
+        padding-right: 10%;
+        width: 70%;
+        height: 525%;
+    
+    }
+    .page2{
+        font-size: 15px;
+        height: 2400px;
+        padding-bottom: 0;
+    }
+    .img1{
+        width: 150%;
+        height: 10%;
+    }
+
+    .sub-div{
+        display:flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: 20%;
+        padding-left: 3%;
+        width: auto;
+        font-size: 20px;
+    }
+
+    .description,.description2,.description3{
+        width: 90%;
+    }
+    .btnlink{
+        margin-top: -10%;
+    }
+
+    .sec-img{
+        padding-top: 5%;
+        padding-right: 10%;
+
+    }
+    #carimg{
+        width: 275%;
+        height: 100%;
+    }
+
+    .sub-div2{
+        margin-top: -20%;
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-left: 3%;
+        width: auto;
+        font-size: 20px;
+
+    }
+    #third-img{
+        padding-top: 10%;
+        width: 230%;
+        height: 100%;
+    }
+    .sub-div3{
+        display:flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: 25%;
+        padding-left: 3%;
+        width: auto;
+        font-size: 20px;
+
+    }
+    #lastimg{
+        width: 230%;
+        height: 280%;
+    }
+    .four-img{
+        padding-top: 25%;
+    }
+
+    .main3-div{
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        row-gap:  6%;
+        padding: 0 3%;
+        margin-top: 5%;
+
+    }
+    .container-sec3{
+        width: 100%;
+        height: 50%;
+        
+    }
+    .sub-div-inner-div1{
+        width: 15%;
+    }
+    .sub-div-inner-div2{
+        margin-bottom: 10%;
+    }
+
+    footer{
+        height: 1200px;
+    }
+
+    .logo-link-parent{
+        display: flex;
+        flex-direction: column;
+        margin-top: -8%;
+    }
+
+    .logo-link2 ul{
+        float: left;
+        width: 40%;
+        padding-top: 3%;
+        display: flex;
+        font-size: 15px;
+        margin-left: -6%;
+    }
+    .sec4{
+        margin-top: -4%;
+    }
+    .container1-sec4{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .sec4-sub-div{
+        flex: 40%;
+        max-width: 40%;
+        margin-bottom: 5%;
+    }
+
+
+    .download-buttons{
+        margin-top: 4%;
+    }
+
+    .appstore{
+        position: relative;
+        margin-bottom: 9%;
+        width: 26%;
+        height: 93%;
+    }
+    .copy-link{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .bottom-link ul{
+        float: left;
+        padding-top: 3%;
+    }
+
+
+    /*
+    .row{ padding: 0 5%;}
+
+    .main-nav{
+        font-size: 20px;
+        padding: 0 5%;
+    }
+
+    .select-box,select option{
+        position: relative;
+        left: 48%;
+        margin-top: -2.7%;
+        width: 20%;
+    }
+    select {
+        width: 50%;
+        background-color: transparent;
+        color: #fff;
+        border: #000000;
+    }
+
+    
+
+    .sub-nav{
+        position: absolute;
+        top: 2%;
+        right:0;
+        padding-right: 100px;
+    }
+    
+    input{
+        margin-left: -34px;
+        height: 20%;
+    
+    }
+    .place{
+        width: 25%;
+        height: 38px;
+    }
+
+   
+   
+
+    .page2{
+        font-size: 15px;
+        height: 2000px;
+    }
+    .small-imgs{
+        width: 100%;
+        height: 90%;
+    }
+
+    .small-img-last{
+        width: 100%;
+        height: 110%;
+
+    }
+    
+    .sub-div,.sub-div2,.sub-div3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 6%;
+    }
+
+   
+    
+    .logo-link2 ul{
+        padding-left: 4%;
+        width: 40%;
+        padding-top: 8%;
+        display: flex;
+        font-size: 15px;
+
+    }*/
+}
+
+/* Small ph to small tab:from 481 to 767*/
+@media only screen and (max-width:767px){
+
+    html{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-size: 15px;
+    }
+    .row{ padding: 0 5%;}
+
+    .head-text-box{
+        width: 140%;
+        font-size: 10px;
+        padding: 4%;
+        margin-left: 25%;
+    }
+    .page2{
+        font-size: 15px;
+        height: 2300px;
+        padding-bottom: 0;
+    }
+    input{
+        margin-left: -34px;
+        height: 20%;
+    
+    }
+    .img1{
+        padding: 0 4%;
+        width: 150%;
+        height: 10%;
+    }
+
+    .btn-signup{
+        position: absolute;
+        left:82%;
+        width: 10%;
+    }
+    .page2 h1,h2{
+        font-size: 30px;
+    }
+
+    .sub-div{
+        margin-top: 30%;
+        padding-left: 3%;
+        width: auto;
+        font-size: 20px;
+    }
+    #carimg{
+        width: 275%;
+        height: 80%;
+    }
+    .sub-div2{
+        margin-top: -30%;
+    }
+    #third-img{
+        padding-top: 10%;
+        width: 230%;
+        height: 80%;
+    }
+    .sub-div3{
+        margin-top: 35%;
+        padding-left: 3%;
+        width: auto;
+        font-size: 20px;
+
+    }
+    #lastimg{
+        width: 230%;
+        height: 150%;
+    }
+    .four-img{
+        padding-top: 15%;
+    }
+    .download-buttons{
+        margin-top: 10%;
+        margin-left: -2%;
+    }
+    .playstore{
+        width: 26%;
+        height: 93%;
+        margin-bottom: 9%;
+
+    }
+
+    .footer-heading{
+        width: 30%;
+    }
+
+    .appstore{
+        position: relative;
+        margin-bottom: 9%;
+        width: 26%;
+        height: 93%;
+    }
+
+    
+    .logo-link2 ul{
+        display: flex;
+        flex-direction: column;
+        margin-left: -7%;
+        padding-top: 6%;
+        width: 70%;
+    }
+    .logo-small{
+        width: 15px;
+    
+    }
+  
+    /*
+    .sub-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 3%;
+        font-size: 9px;
+    }
+
+    .description h1,.description2 h1,.description3 h1{
+       padding-top: 10%;
+    }
+    
+
+    .sub-div2,.sub-div3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 9%;
+        font-size: 9px;
+        padding-right: 2%;
+    }
+    
+    .thi-img img{
+        width: 90%;
+        height: 70%;
+    }
+
+    .small-imgs{
+        width: 80%;
+        height: 60%;
+    }
+
+    .small-img-last{
+        width: 100%;
+        height: 90%;
+
+    }
+    .last-desc {
+        font-size: 24px;
+    }
+    */
+}
+
+/* Small ph: from 0 tp 480px*/
+@media only screen and (max-width:480px){
+
+    html{
+        min-width: 100%;
+        min-height: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    body{
+        font-size: 14px;
+    }
+    .row{ padding: 0 10%;}
+    .page2{
+        font-size: 15px;
+        height: 1950px;
+        padding-bottom: 0;
+    }
+
+    .head-text-box{
+        font-size: 14px;
+        padding: 2%;
+        position: absolute;
+        top: 15%;
+        margin-left: 30%;
+        height: 16%;
+    }
+    .place{
+        margin-left: -55px;
+    }
+    #l8{
+       position: absolute;
+       top: 2%;
+       right: 25%;
+    }
+    .btn-signup{
+        position: absolute;
+        left: 74%;
+        width: 13%;
+    }
+    .sub-div{
+        margin-top: 20%;
+        padding-left: 3%;
+        width: auto;
+        font-size: 13px;
+    }
+    .btnlink a{
+        font-size: 10px;
+    }
+    #lastimg{
+        width: 230%;
+        height: 90%;
+    }
+    .sec3-main-div h2{
+        font-size: 113%;
+    }
+    #downloadsec{font-size: 24px;}
+    .footer-heading{
+        width: 70%;
+    }
+
+    .page3{
+        height: 300px;
+
+    }
+
+    .container-sec3{
+        width: 100%;
+        height: 40%;
+        
+    }
+
+    .container1-sec4{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer{
+        margin-top: auto;
+        height: 1450px;
+        font-size: 24px;}
+
+    .sec4-sub-div{
+        flex: 50%;
+        max-width: 70%;
+        margin-bottom: 10%;
+    }
+    .logo-link .footer-nav li{
+        padding-right: 23%;
+    }
+    .logo-link2 ul{
+      margin-top: 7%;
+      padding: 4%;
+        
+    }
+
+    .bottom-link li{
+        margin-top: 10%;
+        margin-right: 20%;
+    }
+
+
+
+
+
+}
